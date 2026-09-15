@@ -254,21 +254,20 @@ body {
 
 /* Social */
 
-.social-buttons {
-  display: flex;
-  justify-content: center;
-  gap: 12px;
+.google-button {
+  width: 100%;
+  padding: 12px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
 }
 
-.social-buttons button {
-  width: 85px;
-  height: 48px;
-  border: none;
-  border-radius: 8px;
-  background: #e7f4f8;
-  font-size: 22px;
+.google-button span {
+  margin-right: 10px;
   font-weight: bold;
-  cursor: pointer;
 }
 
 /* Register */

@@ -91,11 +91,12 @@ function Login() {
             <span></span>
           </div>
 
-          <div className="social-buttons">
-            <button>G</button>
-            <button>f</button>
-            <button>●</button>
-          </div>
+        <div className="social-buttons">
+         <button className="google-button">
+         <span>G</span>
+         Continue with Google 
+         </button>
+         </div>
 
           <p className="register-text">
             Don't have account?{" "}
